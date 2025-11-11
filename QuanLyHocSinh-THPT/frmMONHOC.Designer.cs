@@ -56,14 +56,14 @@
             // 
             this.txttenMH.Location = new System.Drawing.Point(292, 176);
             this.txttenMH.Name = "txttenMH";
-            this.txttenMH.Size = new System.Drawing.Size(335, 20);
+            this.txttenMH.Size = new System.Drawing.Size(335, 23);
             this.txttenMH.TabIndex = 32;
             // 
             // txtMaMH
             // 
             this.txtMaMH.Location = new System.Drawing.Point(292, 146);
             this.txtMaMH.Name = "txtMaMH";
-            this.txtMaMH.Size = new System.Drawing.Size(335, 20);
+            this.txtMaMH.Size = new System.Drawing.Size(335, 23);
             this.txtMaMH.TabIndex = 31;
             // 
             // lblCONGTHONGTIN
@@ -72,7 +72,7 @@
             this.lblCONGTHONGTIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCONGTHONGTIN.Location = new System.Drawing.Point(26, 16);
             this.lblCONGTHONGTIN.Name = "lblCONGTHONGTIN";
-            this.lblCONGTHONGTIN.Size = new System.Drawing.Size(236, 20);
+            this.lblCONGTHONGTIN.Size = new System.Drawing.Size(291, 25);
             this.lblCONGTHONGTIN.TabIndex = 27;
             this.lblCONGTHONGTIN.Text = "CỔNG THÔNG TIN ĐIỆN TỬ";
             // 
@@ -82,7 +82,7 @@
             this.lblPHUTHAI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPHUTHAI.Location = new System.Drawing.Point(26, 39);
             this.lblPHUTHAI.Name = "lblPHUTHAI";
-            this.lblPHUTHAI.Size = new System.Drawing.Size(227, 20);
+            this.lblPHUTHAI.Size = new System.Drawing.Size(291, 25);
             this.lblPHUTHAI.TabIndex = 26;
             this.lblPHUTHAI.Text = "Trường THPT Chuyên Phú Thái";
             // 
@@ -92,7 +92,7 @@
             this.lblGhichu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGhichu.Location = new System.Drawing.Point(170, 249);
             this.lblGhichu.Name = "lblGhichu";
-            this.lblGhichu.Size = new System.Drawing.Size(66, 18);
+            this.lblGhichu.Size = new System.Drawing.Size(83, 24);
             this.lblGhichu.TabIndex = 25;
             this.lblGhichu.Text = "Ghi chú";
             // 
@@ -102,7 +102,7 @@
             this.lblSotiet.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSotiet.Location = new System.Drawing.Point(170, 215);
             this.lblSotiet.Name = "lblSotiet";
-            this.lblSotiet.Size = new System.Drawing.Size(57, 18);
+            this.lblSotiet.Size = new System.Drawing.Size(68, 24);
             this.lblSotiet.TabIndex = 24;
             this.lblSotiet.Text = "Số tiết";
             // 
@@ -110,9 +110,9 @@
             // 
             this.lblTenMH.AutoSize = true;
             this.lblTenMH.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenMH.Location = new System.Drawing.Point(170, 179);
+            this.lblTenMH.Location = new System.Drawing.Point(161, 176);
             this.lblTenMH.Name = "lblTenMH";
-            this.lblTenMH.Size = new System.Drawing.Size(107, 18);
+            this.lblTenMH.Size = new System.Drawing.Size(135, 24);
             this.lblTenMH.TabIndex = 20;
             this.lblTenMH.Text = "Tên môn học";
             // 
@@ -122,9 +122,10 @@
             this.lblMAMH.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMAMH.Location = new System.Drawing.Point(170, 146);
             this.lblMAMH.Name = "lblMAMH";
-            this.lblMAMH.Size = new System.Drawing.Size(102, 18);
+            this.lblMAMH.Size = new System.Drawing.Size(126, 24);
             this.lblMAMH.TabIndex = 19;
             this.lblMAMH.Text = "Mã môn học";
+            this.lblMAMH.Click += new System.EventHandler(this.lblMAMH_Click);
             // 
             // lblMONHOC
             // 
@@ -132,7 +133,7 @@
             this.lblMONHOC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMONHOC.Location = new System.Drawing.Point(301, 93);
             this.lblMONHOC.Name = "lblMONHOC";
-            this.lblMONHOC.Size = new System.Drawing.Size(204, 24);
+            this.lblMONHOC.Size = new System.Drawing.Size(254, 29);
             this.lblMONHOC.TabIndex = 18;
             this.lblMONHOC.Text = "QUẢN LÝ MÔN HỌC";
             // 
@@ -140,14 +141,14 @@
             // 
             this.numSotiet.Location = new System.Drawing.Point(292, 214);
             this.numSotiet.Name = "numSotiet";
-            this.numSotiet.Size = new System.Drawing.Size(335, 20);
+            this.numSotiet.Size = new System.Drawing.Size(335, 23);
             this.numSotiet.TabIndex = 42;
             // 
             // txtGhichu
             // 
             this.txtGhichu.Location = new System.Drawing.Point(292, 249);
             this.txtGhichu.Name = "txtGhichu";
-            this.txtGhichu.Size = new System.Drawing.Size(335, 20);
+            this.txtGhichu.Size = new System.Drawing.Size(335, 23);
             this.txtGhichu.TabIndex = 35;
             // 
             // btnThoat
@@ -216,6 +217,7 @@
             this.gridMONHOC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridMONHOC.Location = new System.Drawing.Point(173, 376);
             this.gridMONHOC.Name = "gridMONHOC";
+            this.gridMONHOC.RowHeadersWidth = 51;
             this.gridMONHOC.Size = new System.Drawing.Size(458, 150);
             this.gridMONHOC.TabIndex = 66;
             this.gridMONHOC.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridMONHOC_CellClick_1);
@@ -225,7 +227,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(580, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 13);
+            this.label1.Size = new System.Drawing.Size(247, 17);
             this.label1.TabIndex = 78;
             this.label1.Text = "Tìm kiếm giáo viên phụ trách môn học";
             // 
@@ -247,13 +249,13 @@
             this.txtTimkiem.Location = new System.Drawing.Point(566, 39);
             this.txtTimkiem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtTimkiem.Name = "txtTimkiem";
-            this.txtTimkiem.Size = new System.Drawing.Size(221, 20);
+            this.txtTimkiem.Size = new System.Drawing.Size(221, 23);
             this.txtTimkiem.TabIndex = 76;
             this.txtTimkiem.TextChanged += new System.EventHandler(this.txtTimkiem_TextChanged);
             // 
             // frmMONHOC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 564);
             this.Controls.Add(this.label1);

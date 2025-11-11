@@ -14,7 +14,7 @@ namespace QuanLyHocSinh_THPT
     public partial class frmDIEM : Form
     {
         SqlConnection conn = new SqlConnection(
-            @"Data Source=DESKTOP-5INP67J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
+            @"Data Source=DESKTOP-JH4OR7J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
         SqlDataAdapter da;
         DataTable dt;
         bool isAdding = false;
@@ -306,6 +306,12 @@ namespace QuanLyHocSinh_THPT
                 MessageBox.Show("Không thể mở form tìm kiếm: " + ex.Message,
                                 "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmKETQUA_HOCTAP frm = new frmKETQUA_HOCTAP();
+            frm.Show();
         }
     }
     

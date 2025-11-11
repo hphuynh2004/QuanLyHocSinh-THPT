@@ -16,7 +16,7 @@ namespace QuanLyHocSinh_THPT
 
     {
         SqlConnection conn = new SqlConnection(
-           @"Data Source=DESKTOP-5INP67J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
+           @"Data Source=DESKTOP-JH4OR7J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
         SqlDataAdapter da;
         DataTable dt;
         public frmKETQUA_HOCTAP()

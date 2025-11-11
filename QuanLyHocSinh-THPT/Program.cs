@@ -16,7 +16,7 @@ namespace QuanLyHocSinh_THPT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmKETQUA_HOCTAP());
+            Application.Run(new Login());
         }
     }
 }

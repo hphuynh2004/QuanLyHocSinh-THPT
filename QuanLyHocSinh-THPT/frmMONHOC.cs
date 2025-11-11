@@ -14,7 +14,7 @@ namespace QuanLyHocSinh_THPT
     public partial class frmMONHOC : Form
     {
         SqlConnection conn = new SqlConnection(
-      @"Data Source=DESKTOP-5INP67J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
+      @"Data Source=DESKTOP-JH4OR7J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
         public frmMONHOC()
         {
             InitializeComponent();
@@ -286,6 +286,11 @@ namespace QuanLyHocSinh_THPT
             {
                 LoadData(); // Gọi lại danh sách đầy đủ khi ô tìm kiếm trống
             }
+        }
+
+        private void lblMAMH_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

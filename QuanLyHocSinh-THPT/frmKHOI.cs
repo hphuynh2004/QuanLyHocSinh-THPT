@@ -14,7 +14,7 @@ namespace QuanLyHocSinh_THPT
     public partial class frmKHOI : Form
     {
         SqlConnection conn = new SqlConnection(
-       @"Data Source=DESKTOP-5INP67J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
+       @"Data Source=DESKTOP-JH4OR7J\SQLEXPRESS;Initial Catalog=QuanLyHocSinhTHPT;Integrated Security=True");
 
         bool isAdding = false;
         public frmKHOI()

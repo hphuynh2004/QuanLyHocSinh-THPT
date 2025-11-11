@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBConnect.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +101,12 @@
     <Compile Include="frmLOP.Designer.cs">
       <DependentUpon>frmLOP.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMONHOC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,8 +119,24 @@
     <Compile Include="frmTimKiemDIEM.Designer.cs">
       <DependentUpon>frmTimKiemDIEM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_HOCSINH_THPTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_HOCSINH_THPTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyHocSinhTHPTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyHocSinhTHPTDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,11 +155,17 @@
     <EmbeddedResource Include="frmLOP.resx">
       <DependentUpon>frmLOP.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMONHOC.resx">
       <DependentUpon>frmMONHOC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTimKiemDIEM.resx">
       <DependentUpon>frmTimKiemDIEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -156,6 +185,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QL_HOCSINH_THPTDataSet.xsc">
+      <DependentUpon>QL_HOCSINH_THPTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_HOCSINH_THPTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_HOCSINH_THPTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_HOCSINH_THPTDataSet.xss">
+      <DependentUpon>QL_HOCSINH_THPTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhTHPTDataSet.xsc">
+      <DependentUpon>QuanLyHocSinhTHPTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhTHPTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyHocSinhTHPTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyHocSinhTHPTDataSet.xss">
+      <DependentUpon>QuanLyHocSinhTHPTDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

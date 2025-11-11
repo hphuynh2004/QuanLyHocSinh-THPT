@@ -16,3 +16,23 @@ C:\Users\Huynh\source\repos\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmK
 C:\Users\Huynh\source\repos\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmLOP.resources
 C:\Users\Huynh\source\repos\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmMONHOC.resources
 C:\Users\Huynh\source\repos\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmTimKiemDIEM.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\bin\Debug\QuanLyHocSinh-THPT.exe.config
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\bin\Debug\QuanLyHocSinh-THPT.exe
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\bin\Debug\QuanLyHocSinh-THPT.pdb
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.csproj.AssemblyReference.cache
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.exe.config
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmHOCSINH.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmDIEM.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmGIAOVIEN.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmKETQUA_HOCTAP.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmKHOI.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmLOP.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmMONHOC.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmTimKiemDIEM.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.Properties.Resources.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.csproj.GenerateResource.cache
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.csproj.CoreCompileInputs.cache
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.exe
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh-THPT.pdb
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.frmMain.resources
+C:\Users\Nien\OneDrive\Tài liệu\BTLdotnet\QuanLyHocSinh-THPT\obj\Debug\QuanLyHocSinh_THPT.Login.resources
